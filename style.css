@@ -40,7 +40,6 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    font-family: "Rubik", sans-serif;
     font-size: 15px;
     line-height: 18px;
     color: #434343;
@@ -652,13 +651,16 @@ img{
     color: #202020;
     padding: 20px 0 0 20px;
 }
-.row_right__subtitle{
+.row_right a{
     font-weight: normal;
     font-size: 17px;
     line-height: 20px;
     color: #202020;
     margin: 11px 20px 15px 20px;
     border-bottom: 4px solid #E4E4E4;
+}
+.row_right a:focus{
+    color: #133C82;
 }
 .row_right__subtitle:nth-child(5){
     border-bottom:none;
@@ -880,6 +882,7 @@ img{
 FOOTER START 
 -------------- */
 footer{
+    width: 100%;
     background-color: #295093;
     padding-bottom: 30px;
 }
