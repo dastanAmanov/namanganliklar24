@@ -26,10 +26,6 @@ a{
 /*---------------------
  HEADER START 
  --------------------- */
- html{
-    box-sizing: border-box;
-    
-}
 *,
 *::before,
 *::after{
@@ -43,10 +39,6 @@ body{
     font-size: 15px;
     line-height: 18px;
     color: #434343;
-}
-*:focus{
-    outline: 0;
-    box-shadow: 0 0 0 4px rgba(41, 80, 147, 0.4);
 }
 img{
     max-width: 100%;
@@ -341,20 +333,11 @@ img{
     margin-bottom: 11px;
 }
 
-.link_img:hover{
-    opacity: 0.8;
-    transition: .5s ease all;
-}
-
 .link_text{
     display: inline-block;
     font-size: 17px;
     margin-bottom: 11px;
     color: #000;
-}
-
-.link_text:hover{
-    color: rgb(7, 7, 255);
 }
 
 .link_date{
@@ -600,7 +583,6 @@ img{
 ----------------------- */
 .row_block{
     display: flex;
-    flex: 2;
 }
 .row_left{
     width: 70%;
@@ -649,15 +631,19 @@ img{
     font-size: 20px;
     line-height: 24px;
     color: #202020;
-    padding: 20px 0 0 20px;
+
+}
+.row_right__subtitle{
+    border-bottom: 4px solid #E4E4E4;
+    margin: 11px 20px 15px 20px;
 }
 .row_right a{
     font-weight: normal;
     font-size: 17px;
     line-height: 20px;
     color: #202020;
-    margin: 11px 20px 15px 20px;
-    border-bottom: 4px solid #E4E4E4;
+    
+    
 }
 .row_right a:focus{
     color: #133C82;
