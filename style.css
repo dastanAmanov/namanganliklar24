@@ -577,6 +577,43 @@ img{
 ------------------  */
 
 
+/*-------------------
+ OUR APP START 
+--------------------- */
+.our_app__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F9;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+.block__text__title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    color: #295093;
+}
+.block__text__subtitle{
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+    line-height: 20px;
+    padding: 15px 60px 0 0;
+}
+.block__text__subtitle span{
+    text-transform: uppercase;
+}
+.block__img{
+    padding-right: 20px;
+}
+
+/* ------------
+  OUR APP END 
+----------- */
+
+
 
 /* --------------------
     NEWS START 
