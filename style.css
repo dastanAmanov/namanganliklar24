@@ -339,6 +339,9 @@ img{
     margin-bottom: 11px;
     color: #000;
 }
+.link_text:hover{
+    color: #133C82;
+}
 
 .link_date{
     display: block;
@@ -484,6 +487,9 @@ img{
     line-height: 20px;
     color: #202020;
 }
+.listitem-title:hover{
+    color: #133C82;
+}
 .listitem-subtitle{
     font-style: normal;
     font-weight: normal;
@@ -493,12 +499,13 @@ img{
     margin-top: 8px;
 }
 .dt {
+    display: block;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: #7688A4;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .listitem-datetime::before {
     display: inline-block;
@@ -519,7 +526,7 @@ img{
     border-radius: 5px;
     color: white;
     margin-left:300px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
     font-style: normal;
     font-weight: 500;
@@ -565,11 +572,14 @@ img{
     line-height: 20px;
     color: #202020;
 }
+.popularnews__name:hover{
+    color: #133C82;
+}
 .popularnews__datetime{
     margin-bottom: 14px;
 }
 .popularnews__img{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* ------------------
@@ -596,6 +606,7 @@ img{
     color: #295093;
 }
 .block__text__subtitle{
+    width: 530px;
     font-weight: 500;
     font-size: 18px;
     color: #333333;
@@ -683,7 +694,7 @@ img{
     
     
 }
-.row_right a:focus{
+.row_right a:hover{
     color: #133C82;
 }
 .row_right__subtitle:nth-child(5){
@@ -724,6 +735,10 @@ img{
     line-height: 20px;
     color: #202020;
 }
+.row_item__subtitle:hover{
+    color: #133C82;
+}
+
 .row_item time{
     display: block;
     font-weight: normal;
@@ -750,12 +765,13 @@ img{
 .right-box{
     width: 510px;
     height: 280px;
-    border: 1px solid #000;
+    border: 2px solid #BCC3CD;
+    border-radius: 5px;
     padding: 23px;
     box-sizing: border-box;
     margin-top: 59px;
     margin-left: 90px;
-    box-shadow: -10px 10px 9px 0 rgb(57 57 57 / 25%);
+    box-shadow: -10px 10px 5px #39393940;
 }
 
 .right-box-title{
@@ -980,8 +996,10 @@ footer hr{
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;  
+}
+.footer_info ul li a:hover{
+    color: #133C82;
 }
 /*--------------
 MODAL OPEN 
@@ -1007,6 +1025,7 @@ MODAL OPEN
     padding-left: 78px;
     padding-right: 63px;
     border: 1px solid #888;
+    border-radius: 10px;
     width: 819px;
     height: 231px;
     text-align: center;
@@ -1015,6 +1034,7 @@ MODAL OPEN
   
   .modal-content-text{
     font-size: 24px;
+    line-height: 30px;
     color: #295093;
     font-weight: 700;
     margin-top: 46px;
@@ -1042,7 +1062,7 @@ MODAL OPEN
     background-color: rgb(43, 83, 190);
     width: 223px;
     height: 61px;
-    padding: 17px 19px 12px 56px;
+    padding: 20px 19px 12px 56px;
     box-sizing: border-box;
     display: inline-block;
     text-decoration: none;
@@ -1060,6 +1080,7 @@ MODAL OPEN
   
   .subscribe-tg_img{
     position: absolute;
+    top: 14px;
     left: 15px;
     
   }
