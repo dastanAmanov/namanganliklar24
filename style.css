@@ -922,7 +922,6 @@ img{
 FOOTER START 
 -------------- */
 footer{
-    width: 100%;
     background-color: #295093;
     padding-bottom: 30px;
 }
@@ -963,7 +962,7 @@ footer{
     position: absolute;
     z-index: 99;
     top: 20px;
-    right: 105px;
+    right: 95px;
 }
 footer hr{
     width: 1200px;
